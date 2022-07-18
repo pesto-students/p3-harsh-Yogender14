@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz', sans-serif;  background-color: lightblue;
+
+}
+
+
+.container-head{ border: 5px solid palevioletred;
+    border-bottom-left-radius: 40px;
+  width: 100%;
+  height: 20vh;
+  background-color: aquamarine;
+  
+}
+    .container-head img{
+        float: left;
+        margin: 10px auto;
+        width: 120px;     
+
+}
+
+.container-head h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 300;
+    padding-bottom: 2px;
+    letter-spacing: 1;
+    
+}
+
+
+
+.articles{
+    margin: auto;
+    max-width: 70vw;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items:center;
+}
+.articles>article{
+    width: 450px;
+    
+}
+article p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}
+article h2{
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.articles>img{
+    width: 400px;
+    margin:15px 0;
+}
+
+
+    
+    
+    .form{ display: inline-block;
+        float: left;
+    text-align: justify;
+    font-size: 20px;
+    margin: 80px auto;
+    padding:auto;
+    position: relative;
+ left:15vw;
+    bottom:20px;
+     
+  }
+  label{
+    text-decoration: antiquewhite;
+    font-weight: 300;
+  }
+ input{
+    margin:0 auto;
+ }
+ .button {
+    text-decoration: underline;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 41px;
+    background-color: rgb(64, 97, 206);
+    
+}
+
+.button:hover {
+    color: gold;
+    transition-duration: 0.3s;
+    background-color: darkred;
+}
+
+
+strong{
+    font-size: 20px;
+    letter-spacing: 1;
+}
+.submit{
+
+text-decoration: underline;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    background-color: rgb(64, 97, 206);
+    
+}
+
+.submit:hover {
+    color: gold;
+    transition-duration: 0.3s;
+    background-color: darkred;
+}
+input{
+    border-radius: 8px;
+}
+
+textarea{
+    border-radius: 20px;
+}
+.form_feedback{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-content:end;
+
+}
+.feedback{
+    align-self: flex-end;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+footer{
+    position: relative;
+    left:20vw;
+}
+b{
+    font-size: 10px;
+
+}
+i{
+    font-size: 20px;
+    font-weight: 300;
+}
+hr{
+    width: 100%; }
